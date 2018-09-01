@@ -3,14 +3,14 @@
 using namespace std;
 int main()
 {
-	int n=0,i=1;
+	int n=0,i=1;//initialisation of variables
 	cout <<"give one number"<<endl;
 	cin>>n;
 	cout<<"the multiplication table of "<<n<<" is:"<<endl;
-	while (i<=10)
+	while (i<=10)//start of loops
 	{
-		cout<<n<<" * "<<i<<" = "<<n*i<<endl;
-		i++;
+		cout<<n<<" * "<<i<<" = "<<n*i<<endl;//function to be repeated
+		i++;//counter for repeatition
 	}
 	return 0;
 }
